@@ -5,10 +5,12 @@ version 0.16.0.
 
 ## Build & development
 
-  $ npm install
+	$ npm install
+  
+	$ bower install
 
-  $ bower install
+	$ npm install -g grunt-cli
 
-  $ npm install -g grunt-cli
+Run `grunt` for building and `grunt serve` for preview.
 
-  $ grunt serve
+Go to http://localhost:9000/#/
