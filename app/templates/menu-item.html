@@ -1,0 +1,8 @@
+<label ng-class="{'highlight': node.highlight}">
+    <input type="checkbox" ng-model="node.checked"
+    ng-change="selected(node)">{{node.name}}
+</label>
+<ul class="child">
+    <li menu-item ng-repeat="item in node.child" node="item">
+    </li>
+</ul>
